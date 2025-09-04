@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html 
+<head>
+    <title>Enlazando CSS</title>
+    <link rel="stylesheet" href="styles.css" <!-- Para indicar la ruta de la carpeta en la que se va a empezar a dar estilos o atributos -->
+</head>
+<body>
+    <h1>TITULO</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod neque distinctio at eum nesciunt! Quidem, hic reprehenderit soluta, obcaecati velit modi reiciendis incidunt dolor laborum accusantium tempore aliquam debitis.
+    </p>
+    
+</body>
+</html>
+
+/* En el otro archivo abierto */
+p{
+color:blue
+}
+
+
+p{  /* Este tipo se llama selector por elemento */
+color:blue
+}
